@@ -6,7 +6,7 @@
 # necessário que você tenha as bibliotecas específicas utilizadas neste
 # livro e, mais especificamente, o script "gccx", que executará o compilador
 # gcc fazendo uso das bibliotecas do livro. Para mais informações e instruções
-# de instalação: xxxxxxxx
+# de instalação: https://github.com/abrantesasf/the_art_and_science_of_c
 # ******************************************************************************
 
 PROGRAMAS = \
