@@ -22,7 +22,7 @@ PROGRAMAS = \
 # Parâmetros para controlar a compilação
 
 CC = gccx
-CFLAGS = -std=c17
+CFLAGS = -std=c17 -Wall
 
 # ******************************************************************************
 # Regra padrão: compila todos os programas

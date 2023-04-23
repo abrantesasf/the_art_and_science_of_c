@@ -1,20 +1,10 @@
 /* =============================================================================
  * Nome       : add2f (add2f.c)
  * Descrição  : retorna a soma de dois números reais (ponto flutuante)
- *
- * Livro      : Este código foi criado com base em meu estudo do livro
- *            : "The Art and Science of C: An Introduction to Computer Science",
+ * Livro      : "The Art and Science of C: An Introduction to Computer Science",
  *            : de Eric S. Roberts (Addison-Wesley, 1995).
  * Capítulo   : 2. Learning by Example
  * Seção      : 2.4. Data types
- *
- * Autor      : Abrantes Araújo Silva Filho
- *            : abrantesasf@pm.me
- *
- * C Standard : C17
- * Versão     : 
- * Copyright  : 
- * Observação :
  * =============================================================================
  */
 

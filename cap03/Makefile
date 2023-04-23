@@ -14,7 +14,8 @@ PROGRAMAS = \
     addlist \
     balance1 \
     balance2 \
-    balance3
+    balance3 \
+    balance4
 
 # ******************************************************************************
 # Parâmetros para controlar a compilação
@@ -47,6 +48,9 @@ balance2: balance2.c
 
 balance3: balance3.c
 	$(CC) $(CFLAGS) -o balance3 balance3.c
+
+balance4: balance4.c
+	$(CC) $(CFLAGS) -o balance4 balance4.c
 
 # ******************************************************************************
 # Regras para a limpeza final

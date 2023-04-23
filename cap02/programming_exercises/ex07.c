@@ -1,20 +1,10 @@
 /* =============================================================================
  * Nome       : ex07 (ex07.c)
  * Descrição  : Programa de conversão de Fahrenheit para Celsius
- *
- * Livro      : Este código foi criado com base em meu estudo do livro
- *            : "The Art and Science of C: An Introduction to Computer Science",
+ * Livro      : "The Art and Science of C: An Introduction to Computer Science",
  *            : de Eric S. Roberts (Addison-Wesley, 1995).
  * Capítulo   : 2. Learning by Example
  * Seção      : Programming Exercises
- *
- * Autor      : Abrantes Araújo Silva Filho
- *            : abrantesasf@pm.me
- *
- * C Standard : C17
- * Versão     : 
- * Copyright  : 
- * Observação :
  * =============================================================================
  */
 
