@@ -1,0 +1,120 @@
+The Art and Science of C: An Introduction to Computer Science
+Por: Eric S. Roberts
+
+Capítulo 2: Learning by Example
+Exercícios de Revisão
+
+1) Indicar o nome do arquivo fonte e explicar brevemente o propósito do programa
+   que está sendo desenvolvido.
+
+2) Fornecer funções prontas programadas por terceiros, para que nosso programa
+   não precise reinventar a roda.
+
+3) #include <math.h>
+
+4) #include "graphics.h"
+   Bibliotecas disponíveis no sistema utilizam < e > nos includes. Bibliotecas
+   escritas por nós mesmos ou por terceiros, mas que não fazem parte do sistema,
+   utilizam aspas duplas " e " nos includes.
+
+5) main
+
+6) \n indica uma quebra de linha. Não é usada comumente em prompts que solicitam
+   dados para os usuários para que a leitura e a entrada de dados fique na mesma
+   linha, facilitando a compreensão.
+
+7) Um argumento é um valor passado para alguma função, para que essa função
+   realize algum cálculo ou processamento com esse argumento.
+
+8) int voteCount1, voteCount2;
+   double x, y, z;
+
+9) input, computation, output.
+
+10) Obter um valor inteiro do usuário. Deve ser usada em uma expressão de
+    atribuição de valor a uma variável, ex: n = GetInteger();
+
+11) %d e %g (ou %f) são "format codes", ou seja, códigos que indicam um formato
+    a ser impresso. Eles funcionam como placeholders em uma string que será
+    impressa pela função printf, e serão substituídos pelos valores apropriados.
+
+12) Holism: indica que você está mais preocupado em entender como um programa de
+    modo geral, sem se preocupar com os detalhes internos. Você quer saber o que
+    o programa faz, não como ele faz.
+
+    Reductionism: indica que você está mais preocupado em entender cada sentença
+    de um programa, sem se preocupar exatamente com o quadro geral. Você quer
+    saber como o programa faz, não exatamente o que ele faz.
+
+13) O conjunto de valores possíveis (domínio) e o conjunto de operações que
+    podem ser realizadas com esses valores.
+
+14) É a inclusão de uma biblioteca geral de funcionalidades para todos os
+    programas deste livro.
+
+15) a = legal, inteiro
+    b = legal, inteiro
+    c = legal, inteiro
+    d = legal, ponto flutuante
+    e = legal, inteiro
+    f = legal, ponto flutuante
+    g = ilegal
+    h = legal, ponto flutuante
+    i = legal, inteiro
+    j = legal, ponto flutuante
+    k = legal, ponto flutuante em notação científica
+    l = ilegal
+
+16) a = 6.02252E+23
+    b = 2.997925E+10
+    c = 5.29167E-9
+    d = 3.1415926535E+0
+
+17) a, b, c, f, h, k, l = legal
+    d, e, g, i, j = ilegal
+
+18) Nada, não se pode assumir nada sobre o valor de uma variável que foi
+    declarada mas que não recebeu nenhum valor por atribuição. Provavelmente ela
+    contém algum lixo que não deve ser utilizado.
+
+19) a = 5, inteiro
+    b = 3, inteiro
+    c = 3.8, ponto flutuante
+    d = 18.0, ponto flutuante
+    e = 4, inteiro
+    f = 2, inteiro
+
+20) 3
+
+21) O menos unário transforma um dado em seu oposto aditivo, por exemplo, de 3
+    para -3, ou de -3 para 3. Além disso ele tem maior precedência do que o
+    menos binário.
+
+22) a = 4
+    b = 2 + 2 * (2 * 2 - 2) % 2 / 2
+        2 + 2 * (4 - 2) % 2 / 2
+        2 + 2 * 2 % 2 / 2
+        2 + 4 % 2 / 2
+        2 + 0 / 2
+        2 + 0
+        2
+    c = 10 + 9 * ((8 + 7) % 6) + 5 * 4 % 3 * 2 + 1
+        10 + 9 * (15 % 6) + 5 * 4 % 3 * 2 + 1
+        10 + 9 * 3 + 5 * 4 % 3 * 2 + 1
+        10 + 27 + 20 % 3 * 2 + 1
+        10 + 27 + 2 * 2 + 1
+        10 + 27 + 4 + 1
+        37 + 4 + 1
+        42
+    d = 1 + 2 + (3 + 4) * ((5 * 6 % 7 * 8) - 9) - 10
+        1 + 2 + 7       * ((30    % 7 * 8) - 9) - 10
+        1 + 2 + 7       * ((2         * 8) - 9) - 10
+        1 + 2 + 7       * ((16)            - 9) - 10
+        1 + 2 + 7       * (7) - 10
+        1 + 2 + 7 * 7 - 10
+        1 + 2 + 49 - 10
+        42
+
+23) De forma implícita, por uma conversão automática chamada de coerção, e de
+    forma explícita, por uma conversão manual chamada de cast.
+
